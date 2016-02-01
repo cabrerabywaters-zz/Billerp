@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>HouzeChef | Dashboard</title>
+
+   
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+     <!--STYLES-->
+     <link rel="stylesheet" href="/metronic/global/plugins/font-awesome/css/font-awesome.min.css">
+     <link rel="stylesheet" href="/metronic/global/plugins/simple-line-icons/simple-line-icons.min.css">
+     <link rel="stylesheet" href="/metronic/global/plugins/bootstrap/css/bootstrap.min.css">
+     <link rel="stylesheet" href="/metronic/global/plugins/uniform/css/uniform.default.css">
+     <link rel="stylesheet" href="/metronic/global/plugins/bootstrap-switch/css/bootstrap-switch.min.css">
+     <link rel="stylesheet" href="/metronic/global/plugins/select2/css/select2.min.css">
+     <link rel="stylesheet" href="/metronic/global/plugins/select2/css/select2-bootstrap.min.css">
+     <link rel="stylesheet" href="/metronic/global/css/components-md.min.css">
+     <link rel="stylesheet" href="/metronic/global/css/plugins-md.min.css">
+     <link rel="stylesheet" href="/metronic/pages/css/login-2.min.css">
+     <link rel="stylesheet" href="/styles/importer.css">
+     <!--STYLES END-->
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <!-- Ionicons -->
+    <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+ 
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body class="hold-transition skin-blue sidebar-mini">
+    <!-- Site wrapper -->
+    <div class="wrapper">
+
+       <%- partial ('partials/navBar.ejs') %>
+
+      <!-- =============================================== -->
+      <%- partial ('partials/sideBar.ejs') %>
+      
+      <!-- =============================================== -->
+
+      <!-- Content Wrapper. Contains page content -->
+      <div class="content-wrapper">
+        <%- body %>      
+
+      </div><!-- /.content-wrapper -->     
+
+      <!-- =============================================== -->
+      <%- partial ('partials/footer.ejs') %>
+      
+      <!-- =============================================== -->
+      <%- partial ('partials/rightSideBar.ejs') %>
+      
+      <!-- Add the sidebar's background. This div must be placed
+           immediately after the control sidebar -->
+      <div class="control-sidebar-bg"></div>
+    </div><!-- ./wrapper -->
+
+    <!--SCRIPTS-->
+    <script src="/js/dependencies/sails.io.js"></script>
+    <script src="/bower_components/jquery/dist/jquery.js"></script>
+    <script src="/bower_components/jquery-ui/jquery-ui.min.js"></script>
+    <script src="/metronic/global/plugins/jquery.min.js"></script>
+    <script src="/metronic/global/plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script src="/metronic/global/plugins/js.cookie.min.js"></script>
+    <script src="/metronic/global/plugins/bootstrap-hover-dropdown/bootstrap-hover-dropdown.min.js"></script>
+    <script src="/metronic/global/plugins/jquery-slimscroll/jquery.slimscroll.min.js"></script>
+    <script src="/metronic/global/plugins/jquery.blockui.min.js"></script>
+    <script src="/metronic/global/plugins/uniform/jquery.uniform.min.js"></script>
+    <script src="/metronic/global/plugins/bootstrap-switch/js/bootstrap-switch.min.js"></script>
+    <script src="/metronic/global/plugins/jquery-validation/js/jquery.validate.min.js"></script>
+    <script src="/metronic/global/plugins/jquery-validation/js/additional-methods.min.js"></script>
+    <script src="/metronic/global/plugins/select2/js/select2.full.min.js"></script>
+    <script src="/metronic/global/scripts/app.min.js"></script>
+    <script src="/metronic/pages/scripts/login.min.js"></script>
+    <script src="/js/public/main.js"></script>
+    <!--SCRIPTS END-->
+  
+  </body>
+</html>
+
+
+
+
